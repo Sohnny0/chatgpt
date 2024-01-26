@@ -1,31 +1,7 @@
 <h1 style="text-align: center; color: hotpink; -webkit-animation: rainbow 5s infinite; -moz-animation: rainbow 5s infinite; -o-animation: rainbow 5s infinite; animation: rainbow 5s infinite;">ChatGPT Java API</h1>
 
-![stable](https://img.shields.io/badge/stability-stable-brightgreen.svg)
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.plexpt/chatgpt)](https://maven-badges.herokuapp.com/maven-central/com.github.plexpt/chatgpt)
 
-[English Doc](https://github.com/PlexPt/chatgpt-java/blob/main/README_en.md).
-
-
-OpenAI ChatGPT 的SDK。觉得不错请右上角Star
- 
- 
-#### 项目合作洽谈请点击 联系微信 https://work.weixin.qq.com/kfid/kfc6913bb4906e0e597
-
-### QQ群：645132635
-
-
-### GPT API 帐号：[购买](https://fk.fq.mk?code=YT0xJmI9Mjc%3D)
-
-# 中文语料库
-
-[中文语料库 67万+问题，欢迎拿去炼丹](https://github.com/PlexPt/chatgpt-corpus)
-
-
-
-点击👇🏻传送链接，购买云服务器炼丹：
-
-- [**阿里云服务器特惠**](https://51015.cn/ss/3vpds)
-- [**【腾讯云】服务器，低至4.2元/月**](https://curl.qcloud.com/NiGEWRdn) 选择 GPU 云服务器
+OpenAI ChatGPT 的SDK。
 
 # 功能特性
 
@@ -57,22 +33,24 @@ OpenAI ChatGPT 的SDK。觉得不错请右上角Star
 
 ## 使用指南
 
-你可能在找这个，参考Demo https://github.com/PlexPt/chatgpt-online-springboot
-
-最新版本 [![Maven Central](https://img.shields.io/maven-central/v/com.github.plexpt/chatgpt)](https://maven-badges.herokuapp.com/maven-central/com.github.plexpt/chatgpt)
-
+基于 https://github.com/PlexPt/chatgpt-java 的4.3.0修改为 JDK21 模块化项目。
+下载后直接运行
 maven
+```
+mvn install
+```
+然后引入maven坐标
 ```
 <dependency>
     <groupId>com.github.plexpt</groupId>
     <artifactId>chatgpt</artifactId>
-    <version>4.2.0</version>
+    <version>4.3.0-JDK21</version>
 </dependency>
 ```
 
 gradle
 ```
-implementation group: 'com.github.plexpt', name: 'chatgpt', version: '4.2.0'
+implementation group: 'com.github.plexpt', name: 'chatgpt', version: '4.3.0-JDK21'
 ```
 
 
@@ -331,32 +309,3 @@ chatGPT = ChatGPT.builder()
 |                                                              |                                                              |
 
 ---
-
-
-
-
-
-### 注册教程
-
-https://juejin.cn/post/7173447848292253704
-
-https://mirror.xyz/boxchen.eth/9O9CSqyKDj4BKUIil7NC1Sa1LJM-3hsPqaeW_QjfFBc
-
-#### 另外请看看我的另一个项目 [ChatGPT中文使用指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
-
-公众号
-
- <img src="https://user-images.githubusercontent.com/15922823/218004565-bb632624-b376-4f01-8ce2-d7065107bf4a.png" width="300"/> 
-
-# 云服务器
-
-点击👇🏻传送链接，购买云服务器：
-
-- [**阿里云服务器**](https://reurl.cc/NqQXyx)
-- [**【腾讯云】云服务器等爆品抢先购，低至4.2元/月**](https://url.cn/B7m0OYnG)
-
-
-
-# Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=PlexPt/chatgpt-java&type=Date)](https://star-history.com/#PlexPt/chatgpt-java&Date)
